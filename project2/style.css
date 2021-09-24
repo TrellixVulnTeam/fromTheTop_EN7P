@@ -1,0 +1,26 @@
+body {
+  background-color: steelblue;
+}
+
+body div > div {
+  background-color: peachpuff;
+}
+
+#column {
+  columns: 3;
+  column-gap: 20px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  column-gap: 20px;
+  /* row-gap: 20px; */
+}
