@@ -1,0 +1,26 @@
+:root {
+  --font-size: 16;
+  --font-unit: 1pt;
+  --font-dyn-size: calc(var(--font-size) * var(--font-unit));
+  --bg: #2295e2;
+}
+
+body {
+  background-color: var(--bg);
+  font-size: var(--font-dyn-size);
+}
+
+/* overriding font size created for root */
+.one {
+  --font-size: 32;
+  --font-dyn-size: calc(var(--font-size) * var(--font-unit));
+  font-size: var(--font-dyn-size);
+}
+
+.two {
+  font-size: var(--font-dyn-size);
+}
+
+.three {
+  font-size: var(--font-dyn-size);
+}
