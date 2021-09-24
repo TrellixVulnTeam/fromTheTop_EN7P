@@ -1,0 +1,4 @@
+.container {
+  direction: rtl;
+  writing-mode: vertical-lr;
+}

@@ -1,0 +1,43 @@
+html {
+  background: #f1f1f1;
+}
+
+.add-border {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #2f4f4f;
+  padding: 2rem;
+  border-inline-start: 1rem red solid;
+  border-block-start: 1rem green solid;
+  border-inline-end: 1rem blue solid;
+  border-block-end: 1rem purple solid;
+}
+
+.add-border-old {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #2f4f4f;
+  padding: 2rem;
+  border-left: 1rem red solid;
+  border-top: 1rem green solid;
+  border-right: 1rem blue solid;
+  border-bottom: 1rem purple solid;
+}
+
+.inline-start {
+  color: red;
+}
+
+.block-start {
+  color: green;
+}
+
+.inline-end {
+  color: blue;
+}
+
+.block-end {
+  color: purple;
+}
